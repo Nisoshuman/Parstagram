@@ -50,3 +50,4 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+![insta gif 1](https://user-images.githubusercontent.com/98039848/195473193-f7037b56-8ed5-403b-8c61-da171f165ae3.gif)
