@@ -2,21 +2,17 @@
 //  PostCell.swift
 //  Parstagram
 //
-//  Created by Nisreen Shuman on 10/6/22.
+//  Created by Nisreen Shuman on 10/12/22.
 //
 
 import UIKit
 
 class PostCell: UITableViewCell {
-    
-    
+
     @IBOutlet weak var photoView: UIImageView!
-    
-    
     @IBOutlet weak var usernameLabel: UILabel!
-    
-    
     @IBOutlet weak var captionLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

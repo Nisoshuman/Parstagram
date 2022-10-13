@@ -2,7 +2,7 @@
 //  ParstagramUITests.swift
 //  ParstagramUITests
 //
-//  Created by Danny Lau on 10/5/22.
+//  Created by Camila Aichele on 10/9/22.
 //
 
 import XCTest
@@ -27,11 +27,12 @@ class ParstagramUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
 
+        // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
     func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
+        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
             // This measures how long it takes to launch your application.
             measure(metrics: [XCTApplicationLaunchMetric()]) {
                 XCUIApplication().launch()
